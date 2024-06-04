@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Initialazation') {
             steps {
-              sh 'echo inside intializa stage Main branch'
+              sh 'echo inside intializa stage dev branch'
             }
         }
         stage('Bye') {
             steps {
-                sh 'echo Bye Main Branch'
+                sh 'echo Bye dev Branch'
             }
         }
     }
